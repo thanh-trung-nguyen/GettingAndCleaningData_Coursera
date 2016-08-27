@@ -20,6 +20,7 @@ Note that in the first time you run the script, it will download the original da
 5. Create a new tidy data set: each value of a variable is the mean value of the corresponding measurement of a specified subject when this person is doing a specified activity. This can be done using the  lapply function for data.table class. 
 
 Then the tidy data is written to the file named "TidyData.csv" using "write.table" function. This data can be read into R by 
+
 data <- read.table("TidyData.csv",sep = ",")
 
 Thank you very much for spending your time to read this and grade my work!
