@@ -1,5 +1,6 @@
 Files in this repository: 
-1. TidyData.csv: the tidy data created by the script "run_analysis.R"
+
+1. TidyData.txt: the tidy data created by the script "run_analysis.R"
 2. "run_analysis.R": the main script to create the tidy data set
 3. "activityName.R": an R function for converting the activity labels to activity names
 4. "codeBook.md": describes the data set and the variables
@@ -21,6 +22,6 @@ Note that in the first time you run the script, it will download the original da
 
 Then the tidy data is written to the file named "TidyData.csv" using "write.table" function. This data can be read into R by 
 
-data <- read.table("TidyData.csv",sep = ",")
+data <- read.table("TidyData.txt",sep = ",")
 
 Thank you very much for spending your time to read this and grade my work.
