@@ -85,10 +85,10 @@ setkey(TidyData,`subject`)  # sort the data in ascending order of subject.
 
 
 # write the tidy data to a file, use commas "," to separate the columns
-write.table(TidyData, file = "TidyData.csv", sep = ",")
+write.table(TidyData, file = "TidyData.txt", sep = ",", row.names=FALSE)
 
 ## you can load this data file into R by the following command: 
-# data <- read.table("TidyData.csv",sep = ",")
+# data <- read.table("TidyData.txt",sep = ",")
 
 
 
