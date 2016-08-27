@@ -23,4 +23,4 @@ Then the tidy data is written to the file named "TidyData.csv" using "write.tabl
 
 data <- read.table("TidyData.csv",sep = ",")
 
-Thank you very much for spending your time to read this and grade my work!
+Thank you very much for spending your time to read this and grade my work.
